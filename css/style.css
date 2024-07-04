@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+header .navbar{
+    background-color: #008374;
+}
+
+header .navbar-brand{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+header .navbar-nav li a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 14px !important;
+    font-family: "Poppins", sans-serif;
+}
+
+header .navbar-nav li a:hover{
+    border-bottom: 2px solid #f85a40;
+    color: white !important;
+}
+
+.banner{
+    background-color: #008374;
+    padding: 50px 0px;
+}
+
+.banner .para h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif ;
+    color: white;
+}
+
+.banner .para p{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.banner .para{
+    padding-right: 50px;
+}
+
+.banner .btn{
+    padding: 15px 0px;
+}
+
+.banner .btn .getstarted{
+    color: #ffff;
+    background-color: color-mix(in srgb, #ffffff, transparent 90%);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 14px 40px;
+    border-radius: 25px;
+    border: 2px solid color-mix(in srgb, #ffffff, transparent 90%);
+}
+
+.icon-section .icon-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #008374;
+    box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 3px;
+    background-color: #008374;
+    height: 280px;
+}
+
+.icon-box i::before {
+    color: white !important;
+    font-size: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 998px){   
+
+    .icon-section{
+        margin-bottom: -650px !important;
+    }
+
+    .about-section{
+        margin-top: 700px !important;
+    }
+}
+
+.icon-section .icon-box h4{
+    color: white;
+    margin-top: 10px;
+}
+
+.icon-section{
+    margin-bottom: -185px;
+}
+
+.about-section{
+    margin-top: 270px;
+}
+
+.about-section .para{
+    text-align: center;
+}
+
+.about-section .para h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+.about-section .para h2::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #008374;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+}
+
+.about-section .about h3{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+
+.about-section .about img{
+    border-radius: 15px;
+}
+
+.about-section .about .about-first{
+    padding-right: 25px;    
+}
+
+.about-section .about .about-first p{
+    font-size: 17px;
+    padding-top: 20px;
+    margin-bottom: 0px ;
+}
+
+.about-section .about .about-second .second-para{
+    font-size: 17px;
+    color: grey;
+    font-style: italic;
+}
+
+.about-section .about .about-second{
+    padding-left: 25px;
+    font-size: 17px;
+}
+
+.carousel img{
+    padding: 25px;
+}
+
+.stats .stats-para{
+    display: flex;
+}
+
+.call-action{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/cta-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 450px;
+    margin-top: 100px;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-action h2{
+    color: #fff;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.call-action p{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding: 20px 80px;
+}
+
+.call-action button{
+    padding: 10px 35px;
+    border-radius: 5px;
+    background: transparent;
+    color: #f0f0f0;
+    border: 2px solid white;
+    font-size: large;
+    font-weight: 500;
+}
+
+.services .para{
+    text-align: center;
+}
+
+.services .card{
+    box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.services .para h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+.services .para h2::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #008374;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+}
+
+.testimonials .para{
+    text-align: center;
+}
+
+.testimonials .para h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+.testimonials .para h2::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #008374;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+}
+
+#carousel2 img{
+    max-width: 100px;
+    border-radius: 250px;
+    display: block;
+    margin: 25px auto;
+    margin-bottom: 0px;
+}
+
+#carousel2 .card{
+    text-align: center;
+    margin: 50px 0px;
+    box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.portfolio .para{
+    text-align: center;
+}
+
+.portfolio .para h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+.portfolio .para h2::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #008374;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+}
+
+.social-icon {
+    max-width: 40px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    text-align: center;
+    color: #818080;
+    margin: 5px; 
+    padding: 5px;
+    font-size: 20px;
+}
+
+.portfolio-tabs .nav-link{
+    font-size: large;
+    font-weight: 700;
+    border: none;
+    color: black;
+    text-decoration: none;
+}
+
+.team .para{
+    text-align: center;
+}
+
+.team .para h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+.team .para h2::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #008374;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+}
+
+.team .card{
+    border-radius: 20px;
+}
+
+.pricing{
+    font-family: "Montserrat", sans-serif;
+}
+
+.pricing .para{
+    text-align: center;
+}
+
+.pricing .para h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+.pricing .para h2::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #008374;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+}
+
+.pricing .circular-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #008374;
+    text-align: center;
+}
+
+.pricing .main-card{
+    border: 4px solid #008374;
+    border-radius: 25px;
+}
+
+.pricing .main-card p{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.pricing .card{
+    border-radius: 25px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+.pricing .faq-section p{
+    text-align: left;
+}
+
+.faq-section .accordion-item{
+    box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
+}
+
+.faq-section .accordion-item .accordion-button{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.accordion-number{
+    color: #008374;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.pricing .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pricing .price-para{
+    display: flex;
+}
+
+.pricing .price-para .line-p{
+    color: #222222;
+    text-decoration: line-through;
+}
+
+.pricing .card .btn{
+    border: 1px solid grey;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.pricing h4{
+    font-weight: 600;
+}
+
+.pricing .price h1{
+    color: #008374;
+    font-weight: 700;
+}
+
+.blog .para{
+    text-align: center;
+}
+
+.blog .para h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+.blog .para h2::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #008374;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+}
+
+.blog .card p{
+    color: #818080;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.blog .card h5{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.blog .card{
+    border-radius: 15px;
+}
+
+.blog .card img{
+    border-radius: 15px 15px 0 0 ;
+}
+
+.contact .para{
+    text-align: center;
+}
+
+.contact .contact-details{
+    background-color: #008374;
+    color: #f0f0f0;
+}
+
+.details-para p{
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.contact .contact-details .details{
+    background-color: #189687;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.contact .para h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+.contact .details {
+    display: flex;
+}
+
+.main-form .container{
+    box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
+}
+
+.details .details-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #27a596;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.contact .para h2::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #008374;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+}
+
+.main-form input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin: 13px;
+}
+
+.main-form .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form .normal{
+    color: #fff;
+    background-color: #008374;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-form textarea{
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    margin: 13px;
+}
+
+.footer{
+    background-color: #008374;
+    color: white;
+}
+
+.footer .footer-icon{
+    max-width: 40px;
+    border-radius: 50%;
+    background-color: #008374;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 5px; 
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
+.footer-links a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 13px;
+}
