@@ -17,6 +17,7 @@ header .navbar-brand{
     font-size: 30px;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
+    padding-left: 10px;
 }
 
 header .navbar-nav li a{
@@ -89,6 +90,33 @@ header .navbar-nav li a:hover{
 
 @media (max-width: 767px){
     
+    h1{
+        font-size: 30px !important;
+    }
+
+    h2{
+        font-size: 20px !important;
+    }
+    
+    h2{
+        font-size: 20px !important;
+    }
+
+    h2{
+        font-size: 20px !important;
+    }
+
+    h2{
+        font-size: 20px !important;
+    }
+
+    h2{
+        font-size: 20px !important;
+    }
+
+    p{
+        font-size: 14px !important;
+    }
 }   
 
 @media (min-width: 768px) and (max-width: 998px){   
@@ -98,8 +126,9 @@ header .navbar-nav li a:hover{
     }
 
     .about-section{
-        margin-top: 700px !important;
+        margin-top: 650px !important;
     }
+    
 }
 
 .icon-section .icon-box h4{
@@ -139,7 +168,7 @@ header .navbar-nav li a:hover{
     bottom: -15px;
 }
 
-.about-section .about h3{
+.about-section .about h2{
     font-size: 28px;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
