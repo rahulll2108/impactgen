@@ -87,6 +87,10 @@ header .navbar-nav li a:hover{
     font-size: 40px;
 }
 
+@media (max-width: 767px){
+    
+}   
+
 @media (min-width: 768px) and (max-width: 998px){   
 
     .icon-section{
