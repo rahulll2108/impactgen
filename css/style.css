@@ -89,6 +89,20 @@ header .navbar-nav li a:hover{
 }
 
 @media (max-width: 767px){
+
+    .main-form input{
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        margin: 13px 0 !important;
+    }
+    
+    .main-form textarea{
+        height: 200px;
+        width: 100%;
+        padding: 10px;
+        margin: 13px 0 !important;
+    }
     
     h1{
         font-size: 30px !important;
@@ -603,13 +617,6 @@ header .navbar-nav li a:hover{
     bottom: -15px;
 }
 
-.main-form input{
-    width: 100%;
-    height: 40px;
-    padding: 10px;
-    margin: 13px;
-}
-
 .main-form .btn{
     display: flex;
     justify-content: center;
@@ -623,6 +630,13 @@ header .navbar-nav li a:hover{
     padding: 10px 20px;
     border-radius: 25px;
     font-family: "Poppins", sans-serif;
+}
+
+.main-form input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin: 13px;
 }
 
 .main-form textarea{
