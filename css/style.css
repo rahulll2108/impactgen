@@ -102,6 +102,10 @@ header .navbar-nav li a:hover{
         padding: 20px 20px !important;
     }
 
+    .pricing .main-card{
+    border: none !important;
+    }
+
     .main-form input, textarea{
         margin: 0px 0 13px 0 !important;
         
@@ -458,6 +462,7 @@ header .navbar-nav li a:hover{
 
 .pricing .main-card{
     border-radius: 25px;
+    border: 2px solid #008374;
 }
 
 .pricing .main-card p{
