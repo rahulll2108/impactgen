@@ -88,73 +88,7 @@ header .navbar-nav li a:hover{
     font-size: 40px;
 }
 
-@media (max-width: 767px){
 
-    .footer-links, .footer-contact{
-        margin-top: 20px;
-    }
-
-    .footer-links a{
-        margin-top: 8px !important;
-    }
-
-    .call-action p{
-        padding: 20px 20px !important;
-    }
-
-    .pricing .main-card{
-    border: none !important;
-    }
-
-    .main-form input, textarea{
-        margin: 0px 0 13px 0 !important;
-        
-    }
-
-    .about-section .about .about-second, .about-first{
-        padding: 0px 15px !important;
-    }
-    
-    h1{
-        font-size: 30px !important;
-    }
-
-    h2{
-        font-size: 20px !important;
-    }
-    
-    h2{
-        font-size: 20px !important;
-    }
-
-    h2{
-        font-size: 20px !important;
-    }
-
-    h2{
-        font-size: 20px !important;
-    }
-
-    h2{
-        font-size: 20px !important;
-    }
-
-    p{
-        font-size: 14px !important;
-    }
-}   
-
-@media (min-width: 768px) and (max-width: 998px){   
-
-    .icon-section{
-        margin-bottom: -650px !important;
-    }
-
-    .about-section{
-        margin-top: 650px !important;
-    }
-    
-}
 
 .icon-section .icon-box h4{
     color: white;
@@ -687,4 +621,74 @@ header .navbar-nav li a:hover{
     text-decoration: none;
     font-size: 14px;
     margin-top: 13px;
+}
+
+
+
+@media (max-width: 767px){
+
+    .footer-links, .footer-contact{
+        margin-top: 20px;
+    }
+
+    .footer-links a{
+        margin-top: 8px;
+    }
+
+    .call-action p{
+        padding: 20px 20px !important;
+    }
+
+    .pricing .main-card{
+    border: none !important;
+    }
+
+    .main-form input, textarea{
+        margin: 0px 0 13px 0 !important;
+        
+    }
+
+    .about-section .about .about-second, .about-first{
+        padding: 0px 15px !important;
+    }
+    
+    h1{
+        font-size: 30px !important;
+    }
+
+    h2{
+        font-size: 20px !important;
+    }
+    
+    h2{
+        font-size: 20px !important;
+    }
+
+    h2{
+        font-size: 20px !important;
+    }
+
+    h2{
+        font-size: 20px !important;
+    }
+
+    h2{
+        font-size: 20px !important;
+    }
+
+    p{
+        font-size: 14px !important;
+    }
+}   
+
+@media (min-width: 768px) and (max-width: 998px){   
+
+    .icon-section{
+        margin-bottom: -650px !important;
+    }
+
+    .about-section{
+        margin-top: 650px !important;
+    }
+    
 }
