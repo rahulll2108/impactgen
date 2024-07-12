@@ -20,6 +20,10 @@ header .navbar-brand{
     padding-left: 10px;
 }
 
+.dropdown-menu li a{
+    color: black !important;
+}
+
 header .navbar-nav li a{
     color: white;
     font-size: 15px;
