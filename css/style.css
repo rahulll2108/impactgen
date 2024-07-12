@@ -608,7 +608,6 @@ header .navbar-nav li a:hover{
     border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
-
 .footer-links{
     display: flex;
     flex-direction: column;
