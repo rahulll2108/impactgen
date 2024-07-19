@@ -626,6 +626,10 @@ header .navbar-nav li a:hover{
     margin-top: 13px;
 }
 
+.navbar-toggler-icon{
+    display: none;
+}
+
 @media (max-width: 767px){
 
     .footer-links, .footer-contact{
@@ -659,22 +663,6 @@ header .navbar-nav li a:hover{
     h2{
         font-size: 20px !important;
     }
-    
-    h2{
-        font-size: 20px !important;
-    }
-
-    h2{
-        font-size: 20px !important;
-    }
-
-    h2{
-        font-size: 20px !important;
-    }
-
-    h2{
-        font-size: 20px !important;
-    }
 
     p{
         font-size: 14px !important;
@@ -689,6 +677,10 @@ header .navbar-nav li a:hover{
 
     .about-section{
         margin-top: 650px !important;
+    }
+
+    .icon-section .icon-box{
+        margin-top: 25px;
     }
     
 }
