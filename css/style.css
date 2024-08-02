@@ -8,6 +8,9 @@
     box-sizing: border-box;
 }
 
+
+/* Navbar Css */
+
 header .navbar{
     background-color: #008374;
 }
@@ -36,6 +39,8 @@ header .navbar-nav li a:hover{
     border-bottom: 2px solid #f85a40;
     color: white !important;
 }
+
+/* Banner Css */
 
 .banner{
     background-color: #008374;
@@ -103,6 +108,8 @@ header .navbar-nav li a:hover{
     margin-bottom: -185px;
 }
 
+/* About Css */
+
 .about-section{
     margin-top: 270px;
 }
@@ -163,9 +170,13 @@ header .navbar-nav li a:hover{
     font-size: 17px;
 }
 
+/* Carousel Css */
+
 .carousel img{
     padding: 25px;
 }
+
+/* Statistics Css */
 
 .stats .stats-para{
     display: flex;
@@ -210,6 +221,8 @@ header .navbar-nav li a:hover{
     font-weight: 500;
 }
 
+/* Services Css */
+
 .services .para{
     text-align: center;
 }
@@ -243,6 +256,8 @@ header .navbar-nav li a:hover{
 .services-card-bottom{
     margin-bottom: 25px;
 }
+
+/* Testimonials Css */
 
 .testimonials .para{
     text-align: center;
@@ -282,6 +297,8 @@ header .navbar-nav li a:hover{
     box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }
+
+/* Portfolio Css */
 
 .portfolio .para{
     text-align: center;
@@ -330,6 +347,8 @@ header .navbar-nav li a:hover{
     text-decoration: none;
 }
 
+/* Team Css */
+
 .team .para{
     text-align: center;
 }
@@ -361,6 +380,8 @@ header .navbar-nav li a:hover{
 .team .card{
     border-radius: 20px;
 }
+
+/* Pricing Css */
 
 .pricing{
     font-family: "Montserrat", sans-serif;
@@ -465,6 +486,8 @@ header .navbar-nav li a:hover{
     font-weight: 700;
 }
 
+/* Blog Css */
+
 .blog .para{
     text-align: center;
 }
@@ -508,6 +531,8 @@ header .navbar-nav li a:hover{
 .blog .card img{
     border-radius: 15px 15px 0 0 ;
 }
+
+/* Contact Css  */
 
 .contact .para{
     text-align: center;
@@ -594,6 +619,8 @@ header .navbar-nav li a:hover{
     padding: 10px;
     margin: 13px;
 }
+
+/* Footer Css */
 
 .footer{
     background-color: #008374;
